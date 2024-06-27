@@ -1,18 +1,22 @@
 Name : Konnepati Mahesh
+
 Company : CODSOFT
+
 ID : CS11WX283968
-Domain : Web Development  
+
+Domain : Web Development
+
 Duration : 20 june to 20 july,2024
 
-**overview of the project**
+# overview of the project #
 
 # Objectives #
-    1. User-Friendly Interface: Create a visually appealing and intuitive interface for the calculator.
-    2. Basic Arithmetic Operations: Enable the calculator to perform basic operations like addition, subtraction, multiplication, and division.
-    3. Responsive Design: Ensure the calculator works well on various devices, including desktops, tablets, and smartphones.
-    4. Accessibility: Make the calculator accessible to all users, including those with disabilities.
 
-
+* User-Friendly Interface: Create a visually appealing and intuitive interface for the calculator.
+* Basic Arithmetic Operations: Enable the calculator to perform basic operations like addition, subtraction, multiplication, and division.
+* Responsive Design: Ensure the calculator works well on various devices, including desktops, tablets, and smartphones.
+* Accessibility: Make the calculator accessible to all users, including those with disabilities.
+ 
 # Key Activities #
   1. Designing the Layout:
 
