@@ -1,0 +1,136 @@
+                                                                                       LANDING PAGE
+A landing page is a standalone web page designed specifically for marketing or advertising campaigns. It's where a visitor "lands" after clicking on a link in an email, an advertisement, or other digital locations.
+The primary purpose of a landing page is to convert visitors into leads or customers by encouraging them to take a specific action, such as filling out a form, subscribing to a newsletter, or making a purchase.
+
+# Landing Page for Hercules Cycle #
+A landing page for Hercules Cycle would typically be a web page dedicated to showcasing and promoting Hercules bicycles. This page might include the following elements:
+
+Brand Information: Introduction to Hercules Cycles, highlighting its history, values, and mission.
+Product Showcase: Detailed descriptions and images of different Hercules bicycle models, including specifications, features, and pricing.
+
+
+# HTML CODE #
+
+
+<html lang="en">
+<head>
+   <!DOCTYPE html>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Bicycle</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <h1 class="title">Her<span>cules</span></h1>
+            <p>All India providers</p>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="home">
+            <h1 class="title">Good<span> Bicycle </span>will always<br>find the audience</h1>
+            <p> provide a variety of uniques and  best Bicycle</p>
+            <button type="button">shop Now</button>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+# CSS CODE #
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background:url(https://hercules.in/wp-content/uploads/2022/10/MicrosoftTeams-image-1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav-bar .title{
+    color: #ffff;
+    font-size: 67px;
+    font-weight: 600;
+    
+
+}
+span{
+    color: crimson;
+    
+}
+.nav-bar p{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 50px;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 27px;
+    font-weight: 600;
+    margin-left: 25px;
+    
+}
+.menu li a:hover{
+    color: crimson;
+    padding: 10px 20px;
+    border: 2px solid #ffff;
+
+}
+.home{
+    height: 400px;
+    padding: 70px;
+
+}
+.title{
+    font-size: 56px;
+    color: #ffff;
+    font-weight: 600;
+}
+.home p{
+    color:lemonchiffon;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+.home button{
+    height: 40px;
+    color: #ffff;
+    background-color: crimson;
+    padding: 5px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: .4s ease;
+    cursor: pointer;
+}
+.home button:hover{
+    background: none;
+    border: 2px solid crimson;
+}
+
+
